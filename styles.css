@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+    margin: 2em 0;
+}
+
+section#home {
+    background: #f4f4f4;
+}
+
+section#about {
+    background: #e2e2e2;
+}
+
+section#education {
+    background: #d1d1d1;
+}
+
+section#experience {
+    background: #c1c1c1;
+}
+
+section#contact {
+    background: #b1b1b1;
+}
+
+section#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+section#contact ul li {
+    margin: 0.5em 0;
+}
+
+section#contact ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+section#contact ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
